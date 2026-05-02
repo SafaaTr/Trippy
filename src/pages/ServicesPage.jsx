@@ -8,7 +8,7 @@ function ServicesPage() {
       <div className="bg-[url('/images/ser.jpg')] h-457 w-full bg-center bg-cover flex justify-center items-center">
       <h1 className='text-white text-5xl font-bold'>Services</h1>
     </div>
-    <div className='my-64'>
+    <div className='my-64 md:mx-0 mx-20'>
        <Trips/>
     </div>
    

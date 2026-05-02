@@ -16,8 +16,9 @@ function MenuNav({title}) {
         ></div>
       )
       }
-      <div className={`fixed -top-1 -right-10 h-screen  z-50 bg-white w-full rounded-2xl transform transition-transform duration-300  ${showList? "translate-x-0":"translate-x-full"}`}  >
-        <div className='flex flex-col h-full'>
+      <div className={`fixed top-0 right-0 h-screen z-50 bg-white w-full rounded-2xl transform transition-all duration-300 
+  ${showList ? "translate-x-0 opacity-100" : "translate-x-full opacity-0 pointer-events-none"}`} >
+        <div className=' flex flex-col h-full'>
           <div className='flex justify-between items-center p-4 my-10'>
             <h1 className='text-3xl font-bold'>{title}</h1>
             <button onClick={()=>setShowList(false)}>

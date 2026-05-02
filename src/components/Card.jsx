@@ -25,7 +25,7 @@ function Card() {
     <div className='md:flex justify-center gap-20  items-center'>
         {
             contentCard.map((item, index)=>(
-                <div key={index} className='md:w-375 mx-20 md:mx-0 w-350 h-430 shadow-2xl p-16 rounded-lg'>
+                <div key={index} className='w-full md:w-375  md:my-0 my-10  h-430 shadow-2xl p-16 rounded-lg'>
                     <img src={item.img} alt="card1" className='w-full h-200 object-cover rounded-lg ' />
                     <div className='w-full'>
                     <h2 className='text-xl font-semibold text-[#2a2a2a] my-10'>{item.title}</h2>

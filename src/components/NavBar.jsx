@@ -19,7 +19,7 @@ const NavBar = () => {
 
   return (
 
-   <nav className=' z-10 flex justify-between items-center bg-white  shadow-2xl fixed rounded-2xl w-[95%] h-80 top-28 left-1/2 transform -translate-x-1/2 px-30   '>
+   <nav className=' z-10 flex justify-between items-center bg-white shadow-2xl fixed rounded-2xl w-[95%] h-80 top-28 left-1/2 transform -translate-x-1/2 px-30   '>
     <h1 className='font-semibold text-3xl md:text-4xl '>{title}</h1>
     <Links/>
   

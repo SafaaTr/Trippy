@@ -26,8 +26,8 @@ function Destinations() {
         <div key={index} className={`flex flex-col md:flex-row items-center  gap-20 mb-20 ${index % 2==0 ? "md:flex-row-reverse" :""}  `}>
          
          <div className=' flex gap-12 md:w-1/2'>
-            <img src={item.img1} alt="img"  className='w-[44%] md:h-350 h-290 rounded-lg'/>
-            <img src={item.img2} alt="img" className='w-[44%] md:h-350 h-290 rounded-lg' />
+            <img src={item.img1} alt="img"  className='w-[44%] md:h-350 h-250 rounded-lg object-fill'/>
+            <img src={item.img2} alt="img" className='w-[44%] md:h-350 h-250 rounded-lg object-fill ' />
          </div>
          <div className='md:w-[45%]'>
             <h2 className='text-3xl font-bold pb-5 '>{item.title}</h2>
